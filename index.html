@@ -1,9 +1,147 @@
-<html>
-<p>1. Niniejszy dokument opisuje Politykę Prywatności aplikacji "Drinker".</p>
-<p>3. Korzystanie z Aplikacji wymaga posiadania urządzenia mobilnego z systemem Android oraz połączenia z Internetem w postaci włączonego pakietu transmisji danych lub włączonego połączenia wi-fi.</p>
-<p>4. Korzystanie z Aplikacji nie wymaga podania jakichkolwiek danych osobowych. Aplikacje nie przechowują żadnych danych osobowych, które mogłyby umożliwić osobie trzeciej identyfikację konkretnego użytkownika Aplikacji.</p>
-<p>5. W przypadku braku akceptacji na zasady Polityki Prywatności prosimy nie instalować Aplikacji lub ją odinstalować. Trwałe usunięcie Aplikacji z urządzenia mobilnego jest równoznaczne z zakończeniem korzystania z Aplikacji.</p>
-<p>6. Pobranie i zainstalowanie Aplikacji oznacza wyrażenie przez Użytkownika zgody na powyższe<br />warunki. W przypadku braku zgody na powyższe warunki nie należy instalować Aplikacji lub<br />należy ją odinstalować.</p>
-<p>7. Administrator zastrzega sobie prawo do zmiany niniejszej Polityki Prywatności w przypadku<br />zmian funkcjonalności Aplikacji dokonywanych w ramach jej rozwoju.</p>
+---
+layout: page
+title: Alterit
+permalink: /
+---
 
-</html>
+<!-- Slider Start -->
+<section id="slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <div class="block">
+          <h1 class="animated fadeInUp">FOTOGRAFIA ŚLUBNA &#38; <br> EVENTOWA</h1>
+          <p class="animated fadeInUp"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>O nas</h2>
+          </div>
+          <p>Wykonujemy sesje zdjęciowe, zdjęcia ślubne, weselne. Profesjonalna obróbka zdjęć. Zajmujemy się rownież fotografią eventową wraz z nagrywaniem filmów wydarzeń.</p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="img/lens.png" alt="Img">
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
+
+<!-- Service Start -->
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>Nasze usługi</h2>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="icon ion-coffee"></i>
+          <h4>Fotografia ślubna</h4>
+          <p>Zdjęcia ślubne, weselne, sesje narzeczeńskie</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-compass"></i>
+          <h4>Fotografia eventowa</h4>
+          <p>Fotorealacje i filmy z wydarzeń</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-image"></i>
+          <h4>Sesje zdjęciowe</h4>
+          <p>Profesjonalne sesje zdjęciowe w plenerze</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-bug"></i>
+          <h4>Optymalizacja procesów biznesowych</h4>
+          <p>Doradztwo w zakresie optymalizacji procesów biznesowych</p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+<!--
+          <h2>We design delightful digital experiences.</h2>
+          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
+          <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>
+-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Content Start -->
+<!--<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>Fun Facts About Us</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        {% if site.data.funfacts.size > 0 %}
+        <div class="block">
+          {% for ff in site.data.funfacts %}
+          <ul class="counter-box clearfix">
+            <li>
+              <div class="block">
+                <i class="{{ ff.icon }}"></i>
+                <h4 class="counter">{{ ff.counter }}</h4>
+                <span>{{ ff.text }}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        {% if site.data.testimonials.size > 0 %}
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.testimonials %}
+            <div>
+                <img src="img/cotation.png" alt="IMG">
+                <p>{{ tm.testimonial }}</p>
+                <div class="user">
+                  <img src="{{ tm.image }}" alt="Pepole">
+                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+-->
